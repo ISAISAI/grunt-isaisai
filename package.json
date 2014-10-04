@@ -1,0 +1,30 @@
+{
+  "name": "grunt-isaisai",
+  "version": "0.0.1",
+  "description": "isaisai private",
+  "repository": "https://github.com/ISAISAI/grunt-isaisai.git",
+  "author": {
+    "name": "chuyuan.wu",
+    "email": "wujia_84123@126.com",
+    "url": ""
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.2",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
